@@ -11,8 +11,8 @@ function ProductItem(props) {
     <li className={classes.item}>
       <Card>
         <div className={classes.image}>
-          <Image src={props.image} alt={props.name} fill={true} />
-          {/* <img src={props.image} alt={props.name} /> */}
+          {/* <Image src={props.image} alt={props.name} fill={true} /> */}
+          <img src={props.image} alt={props.name} />
         </div>
         <div className={classes.content}>
           <h3>{props.name}</h3>
